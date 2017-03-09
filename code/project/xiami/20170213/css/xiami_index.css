@@ -1,0 +1,427 @@
+body{  font-family: 微软雅黑, 新宋体;margin-top: 0px;background-color:#F0F0F0;
+}
+#container{ max-width: 1100px; min-width: 980px; height:2000px; margin: 0px auto; background-color: #008de2;margin-top: 20px;
+}
+
+
+/* 这是头部 */
+.header{ height: 90px; background-color: #CCC; width:expression(document.body.clientWidth <= 980? "980px": "auto"); min-width: 980px;
+}
+/* 这是头部上部分 */
+.header .top{ height: 60px; background-color:#F77D1B;
+}
+/* 这是头部上部分内容 */
+.header .top .container{ height: 60px; margin: 0px auto; max-width: 1106px; min-width: 980px; width: auto; overflow: hidden;
+}
+.header .top .container .logo{ width: 200px; height: 60px; float: left; background-image: url("http://img.xiami.net/static/img/common/logo/default.png"); background-position: 0px 0px;
+}
+.header .top .container .logo:hover{ background-position:0px -60px;
+}
+.header .top .container .nav{ width: 185px; height: 60px; float: left; font-size:0;
+}
+.header .top .container .nav .find-music{ height: 60px; width:92px; display:inline-block; font-size: 15px; background: linear-gradient(to top,#DC6600,#F47613); line-height:60px;
+}
+.header .top .container .nav .my-music{ height: 60px; width:92px; display:inline-block; background-color:#F77D1B; font-size: 15px; line-height:60px;
+}
+.header .top .container .nav a:first-of-type{ text-decoration: none; color: #F3F1EC;
+}
+.header .top .container .subnav{ width: 270px; height: 60px; float: left;
+}
+.header .top .container .subnav div{ width: 62px; height: 30px; background-color: #FA8518; line-height: 30px; text-align: center; float: right; border: 1px #DB6C16 solid; border-radius: 2px; margin-top: 14px;
+}
+
+.header .top .container .subnav div:hover{background-color: #D85F15;}
+
+.header .top .container .subnav div a{ text-decoration: none; color: #F3F1EC; font-size: 14px;
+}
+
+.header .top .container .search{ width: 245px; height: 60px; float: left;
+ }
+.header .top .container .search form{ border: 1px #DE6A16 solid; height: 30px; width: 230px; float: right; background-color: #FFFFFF; margin-top: 13px; border-radius: 5px;
+}
+
+.header .top .container .search .search-icon{ float: right; background-image: url("http://img.xiami.net/static/img/common/header_icon.png"); background-position: 0px -48px; width:24px; height: 24px; border: none; text-indent: -9999px; background-color: #FFFFFF; margin-top: 3px;
+}
+
+.header .top .container .search .search-text{ float: right; height: 30px; width: 206px; border: none; outline: none;
+}
+
+.header .top .container .nav-reg{ width: 75px; height: 60px; float: left;
+}
+
+.header .top .container .nav-reg div{ width: 60px; height: 30px; background-color: #C46115; margin: 0px auto; margin-top: 13px; border: 1px #B55616 solid; border-radius: 3px; float: right; text-align: center;
+}
+.header .top .container .nav-reg div:hover{ background-color: #B9560A;
+}
+.header .top .container .nav-reg div a{ color:#F3F1EC; line-height: 30px; font-size: 13px; text-decoration: none;
+}
+.header .top .container .nav-login{ width: 130px; height: 60px; float: left;
+}
+.header .top .container .nav-login div[class*="icon-bg"]{ background-color: #C46115; height: 30px; width: 24px; border: 1px #B55616 solid; float: right; margin-top: 13px; border-radius: 3px;
+}
+.header .top .container .nav-login div:hover { background-color: #B9560A;
+}
+.header .top .container .nav-login b:hover { background-color: #B9560A;
+}
+.header .top .container .nav-login .login-now{ width: 60px; height: 30px; background-color: #C46115; margin: 0px auto; margin-top: 13px; border: 1px #B55616 solid; border-radius: 5px; float: right; text-align: center;
+}
+.header .top .container .nav-login .login-now a{ color:#F3F1EC; line-height: 30px; font-size: 13px; text-decoration: none;
+}
+.header .top .container .nav-login .QQ-icon{ width: 24px; height: 24px; background-image: url("http://img.xiami.net/static/img/common/header_thirdparty_icon.png"); background-position: 0px 0px; float: right; margin:3px 0px 3px 0px; background-color: #C46115;
+}
+.header .top .container .nav-login .weibo-icon{ width: 24px; height: 24px; background-image: url("http://img.xiami.net/static/img/common/header_thirdparty_icon.png"); background-position: -24px -24px; float: right; margin:3px 0px 3px 0px; background-color: #C46115;
+}
+
+/*这是头部下部分内容*/
+.header .bottom{ height: 30px; background-color:#F0F0F0;border-bottom: 1px #CFCFCF solid;
+}
+.header .bottom .wrapper{ width: 1100px; margin: 0px auto; height: 30px;
+}
+.header .bottom .wrapper .menu{ width: 450px; text-align: center; margin-left: 80px; height: 30px;float: left;
+}
+.header .bottom .wrapper .menu a{ text-decoration: none; color: #333333; font-size: 14px; line-height: 30px; margin: 0px 15px 0px 14px;
+}
+.header .bottom .wrapper .menu a:hover{ color: #FF6625;
+}
+.header .bottom .wrapper .menu a:first-child{ color: #FF6625;
+}
+.header .bottom .wrapper .software{ float:right; width: 105px; height: 30px; font-size: 12px;
+}.header .bottom .wrapper .software a{ text-decoration: none; color: #333333; font-weight: bold; float: right; line-height: 30px;
+}
+.header .bottom .wrapper .software b{ background-image: url("http://img.xiami.net/static/img/common/header_icon.png"); background-position: -48px -48px; width: 24px; height: 24px; float: right; margin-top: 3px;
+}
+.header .bottom .wrapper .history{ float: right; width: 95px; height: 30px; font-size: 12px;
+}
+.header .bottom .wrapper .history a{ text-decoration: none; color: #333333; font-weight: bold; float: right; line-height: 30px;
+}
+.header .bottom .wrapper .history b{ background-image: url("http://img.xiami.net/static/img/common/header_icon.png"); background-position: -24px -48px; width: 24px; height: 24px; float: right; margin-top: 3px;
+}
+
+.header .bottom .wrapper .vip{ float: right; height: 30px; width: 70px; font-size: 12px;
+}
+
+.header .bottom .wrapper .vip a{ text-decoration: none; color: #333333; font-weight: bold; float: right; line-height: 30px;
+}
+.header .bottom .wrapper .vip b{ background-image: url("http://img.xiami.net/static/img/common/header_icon.png"); background-position: -72px -48px; width: 24px; height: 24px; float: right; margin-top: 3px;
+}
+
+.header .bottom .wrapper .software a:hover~b{ color:#F87A19; background-position:-48px -72px;
+}
+.header .bottom .wrapper .software a:hover{ color:#F87A19;
+}
+.header .bottom .wrapper .software b:hover{ color:#F87A19; background-position:-48px -72px;
+}
+
+.header .bottom .wrapper .history a:hover~b{ color:#F87A19; background-position:-24px -72px;
+}
+.header .bottom .wrapper .history a:hover{ color:#F87A19;
+}
+.header .bottom .wrapper .history b:hover{ color:#F87A19; background-position:-24px -72px;
+}
+
+.header .bottom .wrapper .vip a:hover~b{ color:#F87A19; background-position:-72px -72px;
+}
+.header .bottom .wrapper .vip a:hover{ color:#F87A19;
+}
+.header .bottom .wrapper .vip b:hover{ color:#F87A19; background-position:-72px -72px;
+}
+
+/*这是主体左侧栏内容*/
+
+#container .main{
+    width: 772px;
+    height:3000px;
+    background-color: #FFF;
+}
+#container .main .slide{
+    width: 740px;
+    height: 170px;
+    background-image: url("../images/slide01.jpg");
+    display:inline-block;
+    margin:15px 15px 0px 15px;
+    animation: index-slide 25s;
+    -moz-animation: index-slide 25s;
+    -webkit-animation: index-slide 25s;
+    -o-animation: index-slide 25s;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate;
+}
+@keyframes index-slide{
+    0%{ background-image: url("../images/slide01.jpg"); }
+    20%{ background-image: url("../images/slide02.jpg"); }
+    40%{ background-image: url("../images/slide03.jpg"); }
+    60%{ background-image: url("../images/slide04.jpg"); }
+    80%{ background-image: url("../images/slide05.jpg"); }
+    100%{ background-image: url("../images/slide01.jpg"); }
+}
+@-moz-keyframes index-slide{
+    0%{ background-image: url("../images/slide01.jpg"); }
+    20%{ background-image: url("../images/slide02.jpg"); }
+    40%{ background-image: url("../images/slide03.jpg"); }
+    60%{ background-image: url("../images/slide04.jpg"); }
+    80%{ background-image: url("../images/slide05.jpg"); }
+    100%{ background-image: url("../images/slide01.jpg"); }
+}
+@-webkit-keyframes index-slide{
+    0%{ background-image: url("../images/slide01.jpg"); }
+    20%{ background-image: url("../images/slide02.jpg"); }
+    40%{ background-image: url("../images/slide03.jpg"); }
+    60%{ background-image: url("../images/slide04.jpg"); }
+    80%{ background-image: url("../images/slide05.jpg"); }
+    100%{ background-image: url("../images/slide01.jpg"); }
+}
+@-o-keyframes index-slide{
+    0%{ background-image: url("../images/slide01.jpg"); }
+    20%{ background-image: url("../images/slide02.jpg"); }
+    40%{ background-image: url("../images/slide03.jpg"); }
+    60%{ background-image: url("../images/slide04.jpg"); }
+    80%{ background-image: url("../images/slide05.jpg"); }
+    100%{ background-image: url("../images/slide01.jpg"); }
+}
+
+#container .main .today-recommend{
+    width: 740px;
+    height: 280px;
+}
+#container .main .today-recommend h2{
+    color: #333333;
+    width: 740px;
+    height: 54px;
+    line-height: 54px;
+    display: inline-table;
+    margin-top: -5px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+#container .main .today-recommend h2 a{
+    color: #FF7D07;
+    text-decoration: none;
+    font-size: 10px;
+}
+#container .main .today-recommend .wrapper{
+    width: 740px;
+    height: 222px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+#container .main .today-recommend .recommend-play{
+    font-size: 0;
+    height: 222px;
+    width: 140px;
+    float: left;
+}
+#container .main .today-recommend .recommend-play .rcp-wrapper{
+    width: 140px;
+    height: 140px;
+    background-color: #3A3935;
+}
+#container .main .today-recommend .recommend-play .rcp-wrapper .rcp-icon{
+    position: absolute;
+    float: left;
+    background-image: url("http://img.xiami.net/static/img/common/play_icon.png");
+    background-position: 0px 0px;
+    width: 48px;
+    height: 48px;
+    margin: 46px 46px 46px 46px;
+}
+#container .main .today-recommend .recommend-play .rcp-wrapper .rcp-icon:hover{
+    background-position: -48px -0px;
+}
+
+#container .main .today-recommend .recommend-play .rcp-wrapper-list{
+    width: 134px;
+    height: 134px;
+    float: left;
+    margin:3px 3px auto;
+}
+#container .main .today-recommend .recommend-play .rcp-wrapper-list .rcp-wrapper-img{
+    float: left;
+    border: none;
+}
+#container .main .today-recommend .recommend-play .rcp-text{
+    width: 140px;
+    height: 82px;
+    float: left;
+}
+#container .main .today-recommend .recommend-play .rcp-text p{
+    color: #999999;
+    width: 135px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    background-color:#3A3935;
+    margin-top: 0px;
+    border-left: 5px #3A3935 solid;
+}
+#container .main .today-recommend .recommend-play .rcp-text h2{
+    height: 58px;
+    width: 140px;
+    line-height: 58px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: -12px 0px 0px 0px;
+}
+#container .main .today-recommend .recommend-play .rcp-text h2 a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+}
+#container .main .today-recommend .recommend-list{
+    width: 600px;
+    height: 222px;
+    font-size: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+#container .main .today-recommend .recommend-list li {
+    width: 140px;
+    height: 222px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+#container .main .today-recommend .recommend-list li .album{
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+#container .main .today-recommend .recommend-list li .hidden-1{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    top:0;
+}
+#container .main .today-recommend .recommend-list li .album:hover .hidden-1{
+    display: block;
+}
+#container .main .today-recommend .recommend-list li .rcl-text{
+    height: 24px;
+    width: 140px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #AAAAAA;
+    background-color: #F5F5F5;
+}
+#container .main .today-recommend .recommend-list li .hidden-2{
+    position:absolute;
+    width: 140px;
+    height: 164px;
+    background-color:rgba(0,0,0,0.9);
+    opacity: 0.8;
+    display: none;
+    margin-top: -164px;
+    z-index: 0;
+}
+#container .main .today-recommend .recommend-list li .rcl-text:hover .hidden-2{
+    display: block;
+}
+#container .main .today-recommend .recommend-list .album-name{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333333;
+    text-decoration:none;
+    display: inline-block;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#container .main .today-recommend .recommend-list .album-name:hover{
+    text-decoration: underline;
+}
+#container .main .today-recommend .recommend-list .album-artists{
+    width: 140px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999999;
+    text-decoration:none;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+#container .main .today-recommend .recommend-list .album-artists:hover{
+    text-decoration: underline;
+}
+
+#container .album .interest-wrapper{
+    width: 87px;
+    height: 87px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: absolute;
+    background-color: green;
+    float: left;
+}
+#container .album .interest-wrapper .interest-list{
+    width: 85px;
+    height: 85px;
+    border:1px #555555 solid;
+    display: inline-block;
+    background-color: orange;
+}
+
+#container .album .interest-wrapper .interest-icon1{
+    background-image: http://img.xiami.net/static/img/music/icon.png;
+    background-position: -6px -126px;
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+#container .album .interest-wrapper .interest-icon2{
+    background-image: http://img.xiami.net/static/img/music/icon.png;
+    background-position: -152px -80px;
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container .main .today-recommend .recommend-list li .hidden-2 .wrapper-text{
+    width: 95px;
+    height: 100px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-size: 13px;
+    overflow-wrap: break-word;
+    margin: 30px 25px 0px 20px;
+}
+#container .main .today-recommend .recommend-list li .rcl-text .no-interest-icon{
+    width: 70px;
+    height: 30px;
+    background-color:#999999;
+    text-align: center;
+    line-height: 30px;
+    color:#FFFFFF;
+    border-radius: 3px;
+    font-weight: normal;
+    position: absolute;
+    display:none;
+    z-index: 1;
+    margin:-82px 0px 0px 36px;
+}
+#container .main .today-recommend .recommend-list li .rcl-text:hover .no-interest-icon{
+    display:block;
+}
+#container .main .today-recommend .recommend-list li .no-interest-icon:hover{
+    background-color: #888888;
+}
